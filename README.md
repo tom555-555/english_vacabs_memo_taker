@@ -32,4 +32,7 @@ export default {
 # Testing
 
 [Testing by Vitest](https://vitest.dev/)
+
 [Testing Library - react-testing-library / typescript](https://testing-library.com/docs/react-testing-library/intro/)
+
+[MSW](https://mswjs.io/docs/getting-started)
