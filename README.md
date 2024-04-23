@@ -36,3 +36,12 @@ export default {
 [Testing Library - react-testing-library / typescript](https://testing-library.com/docs/react-testing-library/intro/)
 
 [MSW](https://mswjs.io/docs/getting-started)
+
+# Roadmap
+
+- [x] setup react / ts
+- [x] setup vitest
+- [x] setup vite
+- [ ] [implement the speech reognition function](https://qiita.com/hmmrjn/items/4b77a86030ed0071f548)
+- [ ] Implement the search function for the input by voice
+- [ ] diary function
