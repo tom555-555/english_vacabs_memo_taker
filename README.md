@@ -37,7 +37,7 @@ export default {
 
 [MSW](https://mswjs.io/docs/getting-started)
 
-## todo
+## Todo
 
 - [x] setup react / ts
 - [x] setup vitest
