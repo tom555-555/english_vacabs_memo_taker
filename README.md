@@ -42,6 +42,17 @@ export default {
 - [x] setup react / ts
 - [x] setup vitest
 - [x] setup vite
+- [ ] install and setup react-router
 - [ ] [implement the speech reognition function](https://qiita.com/hmmrjn/items/4b77a86030ed0071f548)
 - [ ] Implement the search function for the input by voice
 - [ ] diary function
+
+## Component Architecture - Atomic Design
+
+- Atoms: just blocks of a UI
+- Molecules: Combination of Atoms
+- Organisms: Combination of molecules and atoms. sometimes with logics
+- Templates: Wrapper of components(atoms/molecules/organisms) without containing specific contents. sometimes with logics
+- Pages: Specific instance where templates are populated with real contents and it is functional
+
+[(referenced from this page)](https://www.linkedin.com/pulse/atomic-design-react-components-kartik-budhraja/)
