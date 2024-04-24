@@ -37,12 +37,13 @@ export default {
 
 [MSW](https://mswjs.io/docs/getting-started)
 
-## Roadmap
+## todo
 
 - [x] setup react / ts
 - [x] setup vitest
 - [x] setup vite
-- [ ] install and setup react-router
+- [x] install and setup react-router
+- [x] set up tailwind
 - [ ] [implement the speech reognition function](https://qiita.com/hmmrjn/items/4b77a86030ed0071f548)
 - [ ] Implement the search function for the input by voice
 - [ ] diary function
