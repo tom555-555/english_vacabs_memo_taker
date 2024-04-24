@@ -37,6 +37,20 @@ export default {
 
 [MSW](https://mswjs.io/docs/getting-started)
 
+## Component Architecture - Atomic Design
+
+- Atoms: just blocks of a UI
+- Molecules: Combination of Atoms
+- Organisms: Combination of molecules and atoms. sometimes with logics
+- Templates: Wrapper of components(atoms/molecules/organisms) without containing specific contents. sometimes with logics
+- Pages: Specific instance where templates are populated with real contents and it is functional
+
+[(referenced from this page)](https://www.linkedin.com/pulse/atomic-design-react-components-kartik-budhraja/)
+
+## Styling
+
+[Styling with Tailwind CSS](https://tailwindcss.com/docs/guides/vite)
+
 ## Todo
 
 - [x] setup react / ts
@@ -47,13 +61,3 @@ export default {
 - [ ] [implement the speech reognition function](https://qiita.com/hmmrjn/items/4b77a86030ed0071f548)
 - [ ] Implement the search function for the input by voice
 - [ ] diary function
-
-## Component Architecture - Atomic Design
-
-- Atoms: just blocks of a UI
-- Molecules: Combination of Atoms
-- Organisms: Combination of molecules and atoms. sometimes with logics
-- Templates: Wrapper of components(atoms/molecules/organisms) without containing specific contents. sometimes with logics
-- Pages: Specific instance where templates are populated with real contents and it is functional
-
-[(referenced from this page)](https://www.linkedin.com/pulse/atomic-design-react-components-kartik-budhraja/)
