@@ -1,8 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.tsx";
-import "./index.css";
+import SearchWordPage from "./components/pages/searchWordPage.tsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+
+import "./index.css";
 
 const router = createBrowserRouter([
   {
@@ -11,7 +13,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/app",
-    element: <App />,
+    element: <SearchWordPage />,
   },
 ]);
 
