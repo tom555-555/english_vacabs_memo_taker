@@ -49,6 +49,7 @@ export default {
 [(ref: https://medium.com/@arshdeepsinghmakker/atoms-molecules-tdd-eda4dc3f7238)](https://medium.com/@arshdeepsinghmakker/atoms-molecules-tdd-eda4dc3f7238)
 
 - Atoms
+
   **Use [Snapshort tests](https://jestjs.io/docs/snapshot-testing)**
 
 1. Props are dynamic, so you will not be testing only the static HTML tags
