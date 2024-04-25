@@ -31,11 +31,36 @@ export default {
 
 ## Testing
 
+### Frameworks/Libraries
+
 [Testing by Vitest](https://vitest.dev/)
 
 [Testing Library - react-testing-library / typescript](https://testing-library.com/docs/react-testing-library/intro/)
 
 [MSW](https://mswjs.io/docs/getting-started)
+
+### Rules
+
+- [Stick to black-box testing: Test only public methods](https://github.com/goldbergyoni/javascript-testing-best-practices?tab=readme-ov-file#-50-best-practices-super-comprehensive-and-exhaustive)
+- [Structure tests by the AAA pattern](https://github.com/goldbergyoni/javascript-testing-best-practices?tab=readme-ov-file#-%EF%B8%8F-12-structure-tests-by-the-aaa-pattern)
+
+### How to Test each granularity(Atoms, Molecules, Organisms, Templates, Pages)
+
+[(ref: https://medium.com/@arshdeepsinghmakker/atoms-molecules-tdd-eda4dc3f7238)](https://medium.com/@arshdeepsinghmakker/atoms-molecules-tdd-eda4dc3f7238)
+
+- Atoms
+  **Use [Snapshort tests](https://jestjs.io/docs/snapshot-testing)**
+
+1. Props are dynamic, so you will not be testing only the static HTML tags
+2. It is just testing the rendering, anyways the components like a button does not have a lot of functionality
+3. It is one of the most fundamental blocks of your app, and hence it would most likely not be changed most often
+4. If someone does change he/she should know this was meant to be like this.
+
+### articles/references
+
+[Qiita - フロントエンドテストにおける知見の宝庫を発見！「javascript-testing-best-practices」(Japanese tech-related articles base)](https://qiita.com/taisei-13046/items/662a289dc7328fb64836)
+
+[javascript-testing-best-practices](https://github.com/goldbergyoni/javascript-testing-best-practices)
 
 ## Component Architecture - Atomic Design
 
