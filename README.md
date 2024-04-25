@@ -44,13 +44,13 @@ export default {
 - [Stick to black-box testing: Test only public methods](https://github.com/goldbergyoni/javascript-testing-best-practices?tab=readme-ov-file#-50-best-practices-super-comprehensive-and-exhaustive)
 - [Structure tests by the AAA pattern](https://github.com/goldbergyoni/javascript-testing-best-practices?tab=readme-ov-file#-%EF%B8%8F-12-structure-tests-by-the-aaa-pattern)
 
-### How to Test each granularity(Atoms, Molecules, Organisms, Templates, Pages)
+### How to Test each granularity of Atomic Design Pattern
 
 [(ref: https://medium.com/@arshdeepsinghmakker/atoms-molecules-tdd-eda4dc3f7238)](https://medium.com/@arshdeepsinghmakker/atoms-molecules-tdd-eda4dc3f7238)
 
-- Atoms
+#### Atoms
 
-  **Use [Snapshort tests](https://jestjs.io/docs/snapshot-testing)**
+**Use [Snapshort tests](https://jestjs.io/docs/snapshot-testing)**
 
 1. Props are dynamic, so you will not be testing only the static HTML tags
 2. It is just testing the rendering, anyways the components like a button does not have a lot of functionality
