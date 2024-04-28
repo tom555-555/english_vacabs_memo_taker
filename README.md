@@ -44,18 +44,52 @@ export default {
 - [Stick to black-box testing: Test only public methods](https://github.com/goldbergyoni/javascript-testing-best-practices?tab=readme-ov-file#-50-best-practices-super-comprehensive-and-exhaustive)
 - [Structure tests by the AAA pattern](https://github.com/goldbergyoni/javascript-testing-best-practices?tab=readme-ov-file#-%EF%B8%8F-12-structure-tests-by-the-aaa-pattern)
 
+### What to test
+
+- How they render
+  - **What it does**, not how it is implemented
+- How they respond to user action
+
+  ![alt text](./assets/testing_piramid.png)
+  From: [React Testing for Beginners: Start Here!](https://www.youtube.com/watch?v=8Xwq35cPwYg&t=1934s)
+
+### What NOT to test
+
+- Styles
+  - because it is fragile and testing with codes won't assure the quality
+
 ### How to Test each granularity of Atomic Design Pattern
 
-[(ref: https://medium.com/@arshdeepsinghmakker/atoms-molecules-tdd-eda4dc3f7238)](https://medium.com/@arshdeepsinghmakker/atoms-molecules-tdd-eda4dc3f7238)
+[(Atomic Design with TDD/BDD (testing strategies) — Part 1)](https://medium.com/@arshdeepsinghmakker/atoms-molecules-tdd-eda4dc3f7238)
+[(Atomic Design with TDD/BDD (testing strategies) — Part 2)](https://medium.com/@arshdeepsinghmakker/atoms-molecules-sections-tdd-ee7b47a56c2c)
 
-#### Atoms
+#### - Atoms
 
 **Use [Snapshort tests](https://jestjs.io/docs/snapshot-testing)**
+It is basically unit tests and conducted with TDD
 
 1. Props are dynamic, so you will not be testing only the static HTML tags
 2. It is just testing the rendering, anyways the components like a button does not have a lot of functionality
 3. It is one of the most fundamental blocks of your app, and hence it would most likely not be changed most often
 4. If someone does change he/she should know this was meant to be like this.
+
+#### - Molecules
+
+**Use [Snapshort tests](https://jestjs.io/docs/snapshot-testing)**
+It is basically unit tests and conducted with TDD
+(Considering this in the same category of Atoms)
+
+#### - Organisms
+
+**Use an approach of behavioural testing**
+
+#### - Templates
+
+**Use an approach of behavioural testing**
+
+#### - Pages
+
+**Use an approach of behavioural testing**
 
 ### articles/references
 
@@ -87,3 +121,8 @@ export default {
 - [ ] [implement the speech reognition function](https://qiita.com/hmmrjn/items/4b77a86030ed0071f548)
 - [ ] Implement the search function for the input by voice
 - [ ] diary function
+
+## What I did through this project
+
+- Practiced testing with code-along with [React Testing for Beginners: Start Here!
+  ](https://www.youtube.com/watch?v=8Xwq35cPwYg&t=1934s)
