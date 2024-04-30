@@ -126,3 +126,5 @@ It is basically unit tests and conducted with TDD
 
 - Practiced testing with code-along with [React Testing for Beginners: Start Here!
   ](https://www.youtube.com/watch?v=8Xwq35cPwYg&t=1934s)
+
+- No need to test the component state but, the effects[(Testing the React component state with Just)](https://medium.com/developer-rants/testing-the-react-component-state-with-jest-b0a072f70f44)
