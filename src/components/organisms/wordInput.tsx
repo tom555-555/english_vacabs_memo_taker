@@ -1,5 +1,5 @@
-import InputLabel from "../atoms/inputLabel";
-import TextInput from "../atoms/textInput";
+import InputLabel from "../atoms/InputLabel";
+import TextInput from "../atoms/TextInput";
 
 interface WordInput {
   wordText: string | undefined;
@@ -7,11 +7,11 @@ interface WordInput {
 }
 
 const WordInput: React.FC<WordInput> = (props) => {
-  const { wordText, onBlurFn } = props;
+  const { onBlurFn } = props;
   return (
     <div>
       <InputLabel text={"Put word here"}>
-        <TextInput state={wordText} onBlur={onBlurFn} />
+        <TextInput onBlur={onBlurFn} />
       </InputLabel>
     </div>
   );

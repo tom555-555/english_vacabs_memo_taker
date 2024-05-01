@@ -1,5 +1,5 @@
 import { useState } from "react";
-import SearchWordTemplate from "../templates/searchWordTemplate";
+import SearchWordTemplate from "../templates/SearchWordTemplate";
 
 const SearchWordPage: React.FC = () => {
   const [wordText, setWordText] = useState<string>("");

@@ -1,4 +1,4 @@
-import WordInput from "../organisms/wordInput";
+import WordInput from "../organisms/WordInput";
 
 interface searchWordTemplate {
   wordText?: string | undefined;

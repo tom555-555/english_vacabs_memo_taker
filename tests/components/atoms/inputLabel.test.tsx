@@ -1,11 +1,10 @@
-import React from "react";
 import { http, HttpResponse } from "msw";
 import { setupServer } from "msw/node";
 import { render, screen } from "@testing-library/react";
 import "@testing-library/react";
 import "@testing-library/jest-dom";
-import InputLabel from "../../../src/components/atoms/inputLabel";
-import TextInput from "../../../src/components/atoms/textInput";
+import InputLabel from "../../../src/components/atoms/InputLabel";
+import TextInput from "../../../src/components/atoms/TextInput";
 import { beforeAll, afterEach, afterAll, it, expect, vi, describe } from "vitest";
 
 const server = setupServer(
