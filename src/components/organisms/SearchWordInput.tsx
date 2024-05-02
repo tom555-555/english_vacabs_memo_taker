@@ -1,12 +1,12 @@
 import InputLabel from "../atoms/InputLabel";
 import TextInput from "../atoms/TextInput";
 
-interface WordInput {
+interface SearchWordInput {
   wordText: string | undefined;
   onBlurFn: (ev: React.FocusEvent<HTMLInputElement>) => void;
 }
 
-const WordInput: React.FC<WordInput> = (props) => {
+const SearchWordInput: React.FC<SearchWordInput> = (props) => {
   const { onBlurFn } = props;
   return (
     <div>
@@ -17,4 +17,4 @@ const WordInput: React.FC<WordInput> = (props) => {
   );
 };
 
-export default WordInput;
+export default SearchWordInput;

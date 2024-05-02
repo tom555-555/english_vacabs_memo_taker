@@ -4,7 +4,7 @@ import { render, screen } from "@testing-library/react";
 import { it, expect, describe, vi } from "vitest";
 
 describe("SearchWordTemplate", () => {
-  it("it should render someword in the input", () => {
+  it("it should render someword in the input", async () => {
     const ue = userEvent.setup();
     // arrange
     const onBlurFn = vi.fn();
@@ -14,9 +14,11 @@ describe("SearchWordTemplate", () => {
     // act
     const textbox = screen.getByRole("textbox");
     console.log({ textbox });
-    ue.type(textbox, txt);
+    await ue.type(textbox, txt);
     screen.debug();
+
     // assert
     expect(textbox).toBeInTheDocument();
+    expect(textbox).toHaveDisplayValue(txt);
   });
 });
