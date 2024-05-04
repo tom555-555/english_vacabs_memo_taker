@@ -1,6 +1,5 @@
-import userEvent from "@testing-library/user-event";
 import { render, screen } from "@testing-library/react";
-import { it, expect, describe, vi } from "vitest";
+import { it, expect, describe } from "vitest";
 import ListContainer from "../../../src/components/molecules/ListContainer";
 import ListItem from "../../../src/components/atoms/ListItem";
 
