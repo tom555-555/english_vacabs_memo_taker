@@ -9,9 +9,9 @@ interface SearchWordInput {
 const SearchWordInput: React.FC<SearchWordInput> = (props) => {
   const { onBlurFn } = props;
   return (
-    <div>
-      <InputLabel text={"Put word here"}>
-        <TextInput onBlur={onBlurFn} />
+    <div className="flex justify-center h-[calc(100dvh)] w-screen items-center">
+      <InputLabel styles={["flex", "flex-col", ""]}>
+        <TextInput onBlur={onBlurFn} placeHolder="Fill a word" />
       </InputLabel>
     </div>
   );

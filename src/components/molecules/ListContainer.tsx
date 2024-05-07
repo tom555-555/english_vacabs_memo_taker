@@ -1,5 +1,5 @@
 interface ListContainer {
-  children: React.ReactNode | JSX.Element | any;
+  children: React.ReactNode | JSX.Element;
   styles?: string[];
 }
 

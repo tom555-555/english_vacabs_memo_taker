@@ -18,10 +18,18 @@ const Items: React.FC<DefinitionList> = (props) => {
   });
 
   return (
-    <div>
-      {wordDefinitionObj.map((data) => (
-        <ListItem>
+    <div className="flex flex-col gap-2 items-center">
+      {wordDefinitionObj.map((data, i1) => (
+        <ListItem key={i1} styles={["flex", "w-80", "flex-col", "bg-slate-500", "rounded-md", "p-2"]}>
           <p>{data.definition}</p>
+          {<h2>Synonyms</h2>}
+          {data.synonyms.length ? (
+            data.synonyms.map((w, i2) => {
+              return <p key={i2}>{w}</p>;
+            })
+          ) : (
+            <p>no synonyms</p>
+          )}
         </ListItem>
       ))}
     </div>

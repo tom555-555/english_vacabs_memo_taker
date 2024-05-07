@@ -7,7 +7,7 @@ interface InputLabel {
 
 const InputLabel: React.FC<InputLabel> = (props) => {
   const { text, iconSrc, styles, children } = props;
-  const classes: string | undefined = styles?.join(", ");
+  const classes: string | undefined = styles?.join(" ");
   return (
     <label htmlFor="" className={classes}>
       {text && text}
