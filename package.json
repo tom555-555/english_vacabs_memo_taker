@@ -12,6 +12,7 @@
     "test:ui": "npx vitest --ui"
   },
   "dependencies": {
+    "jotai": "^2.8.0",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.4",
     "react": "^18.2.0",

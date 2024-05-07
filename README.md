@@ -29,6 +29,13 @@ export default {
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
 
+## Managing State
+
+### It uses [Jotai](https://jotai.org/docs/basics/comparison)
+
+- -why?
+  - to avoid unnecessary re-rendering by state changes
+
 ## Testing
 
 ### Frameworks/Libraries
